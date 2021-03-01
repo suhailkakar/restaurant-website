@@ -17,10 +17,10 @@
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a style="color: #fff !important" href="#work">Home</a></li>
-        <li><a style="color: #fff !important" href="about.php">About Us</a></li>
+				<li><a style="color: #fff !important" href="index.php">Home</a></li>
+        	<li><a style="color: #fff !important" href="about.php">About Us</a></li>
         <li><a style="color: #fff !important" href="#careers">Menu</a></li>
-        <li><a style="color: #fff !important" href="#contact">Blog</a></li>
+        <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
         <li><a style="color: #fff !important" href="#">Location</a></li>
         <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
         <li> <a style="fill: #fff !important" href="#"><i data-eva="shopping-cart-outline"></i></a> </li>

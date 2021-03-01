@@ -19,10 +19,10 @@
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 			<ul class="menu">
-				<li><a href="#work">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
 				<li><a href="#careers">Menu</a></li>
-				<li><a href="#contact">Blog</a></li>
+				<li><a href="blog.php">Blog</a></li>
 				<li><a href="#">Location</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
 				<li> <a href="#"><i data-eva="shopping-cart-outline"></i></a> </li>
