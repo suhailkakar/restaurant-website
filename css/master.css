@@ -58,7 +58,7 @@ li {
 }
 
 .header .logo {
-	display: block;
+	display: none;
 	float: left;
 	font-size: 2em;
 	padding: 10px 20px;
@@ -2017,4 +2017,53 @@ span {
 }
 .main_item {
 	display: flex;
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+
+
+@media only screen and (max-width: 600px)  {
+	.image {
+		display: none;
+	}
+	.landing__maintext {
+		font-size: 45px;
+		width: 100%;
+		margin-left: 10%;
+	}
+	.search {
+		margin-left: 10%;
+	}
+
+	.mainsearch {
+		display: flex;
+		width: 80%;
+		margin-top: -1%;
+	}
+	.menu {
+		background-color: #fff;
+	}
+	.logo {
+		padding-top: 10%;
+	}
+	.header .logo {
+		display: block;
+		margin-top: 2.5%;
+}
+.social {
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 105%;
+	display: flex;
+}
+.landing {
+	height: 92vh;
+}
 }

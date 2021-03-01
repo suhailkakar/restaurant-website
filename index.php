@@ -35,7 +35,7 @@ if(isset($_POST['username'])) {
 
 		<!--  Header Start Using navigation -->
 		<header class="header">
-			<a href="" class="logo"></a>
+			<a href="" class="logo">Restaurant</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 			<ul class="menu">
