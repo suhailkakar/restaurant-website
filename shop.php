@@ -24,7 +24,7 @@
         <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
         <li><a style="color: #fff !important" href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
         <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
-        <li> <a style="fill: #fff !important" href="#"><i data-eva="shopping-cart-outline"></i></a> </li>
+				<li> <a style="fill: #fff !important" href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
         <li> <a style="fill: #fff !important" href="#"><i data-eva="search-outline"></i></a> </li>
       </ul>
 		</header>
@@ -139,18 +139,18 @@ Cake is a form of sweet food made from flour, sugar, and other ingredients, that
   </div>
   <div class="wrapper">
     <div class="product-img">
-      <img src="https://i.ibb.co/vJmvp80/Copy-of-Copy-of-Untitled-4.png" height="420" width="327">
+      <img id='food_image' src="https://i.ibb.co/vJmvp80/Copy-of-Copy-of-Untitled-4.png" height="420" width="327">
     </div>
     <div class="product-info">
       <div class="product-text">
-        <h1>Ice Cream</h1>
-        <h2>Ice / Cream / Jelly</h2>
-        <p>
+        <h1 id='food'>Ice Cream</h1>
+				<h2 id='food_ingredients'>Ice / Cream / Jelly</h2>
+        <p id='food_description'>
 Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla.        </p>
       </div>
       <div class="product-price-btn">
-        <p><span>78</span>$</p>
-        <button type="button">buy now</button>
+        <p><span id='food_price'>78</span>$</p>
+        <button onclick="savinginlocalstorage()" type="button">buy now</button>
       </div>
     </div>
   </div>
@@ -160,7 +160,26 @@ Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It m
 
 
 
+<script type="text/javascript">
 
+
+function savinginlocalstorage(){
+const food = document.getElementById("food").innerHTML;
+const food_price = document.getElementById("food_price").innerHTML;
+const food_description = document.getElementById("food_description").innerHTML;
+const food_ingredients = document.getElementById("food_ingredients").innerHTML;
+console.log(food)
+console.log(food_price)
+console.log(food_description);
+console.log(food_ingredients);
+
+
+localStorage.setItem("food", food);
+localStorage.setItem("food_price", food_price);
+localStorage.setItem("food_description", food_description);
+localStorage.setItem("food_ingredients", food_ingredients);
+}
+</script>
 
 </body>
 <script src="https://unpkg.com/eva-icons"></script>

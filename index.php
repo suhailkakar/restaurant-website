@@ -1,8 +1,28 @@
+<?php
+session_start();
+error_reporting(E_ALL & ~E_NOTICE);
+
+
+if(isset($_GET['logout'])) {
+    $_SESSION['username'] = '';
+    header('Location:  ' . $_SERVER['PHP_SELF']);
+}
+
+if(isset($_POST['username'])) {
+    if($userinfo[$_POST['username']] == $_POST['password']) {
+        $_SESSION['username'] = $_POST['username'];
+    }else {
+        //Invalid Login
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
 	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 	<title>Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
 	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
@@ -25,8 +45,14 @@
 				<li><a href="blog.php">Blog</a></li>
 				<li><a href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
-				<li> <a href="#"><i data-eva="shopping-cart-outline"></i></a> </li>
+				<li> <a href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
 				<li> <a href="#"><i data-eva="search-outline"></i></a> </li>
+				<?php if($_SESSION['username']): ?>
+							<li><a href="blog.php">Hi <?=$_SESSION['username']?> </a></li>
+              <li><a href="?logout=1">Logout</a></li>
+
+        <?php endif; ?>
+
 			</ul>
 		</header>
 		<!--  Header End  Using navigation -->
