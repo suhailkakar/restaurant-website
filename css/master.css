@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 
 @font-face {
 	font-family: "Ginger";
@@ -26,12 +30,12 @@ li {
 }
 /* header */
 
-.header {
-  /* background-color: #fff; */
-  /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
-	position: absolute;
-	width: 100%;
-	z-index: 3;
+		.header {
+		  /* background-color: #fff; */
+		  /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+			position: absolute;
+			width: 100%;
+			z-index: 3;
 }
 
 .header ul {
@@ -1009,12 +1013,12 @@ i.fa.fa-tag::before {
   transition-delay: 0s, 800ms;
 }
 .contact {
-  background-image: url("https://export-download.canva.com/aA7M8/DAEXbTaA7M8/2/0/0001-17569103065.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20210228%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210228T004159Z&X-Amz-Expires=53766&X-Amz-Signature=c76f7fb3a686417d69fc94911ad11ddedfd9fb2ad50ca2f5359a2ae29c70ab93&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Copy%2520of%2520Copy%2520of%2520Copy%2520of%2520Untitled.png&response-expires=Sun%2C%2028%20Feb%202021%2015%3A38%3A05%20GMT");
+  background-image: url("../Images/contact.png");
   -moz-box-shadow: inset 0px 850px 500px -500px #fff;
 -webkit-box-shadow: inset 0px 850px 500px -500px #fff;
 -o-box-shadow: inset 0px 850px 500px -500px #fff;
 box-shadow: inset 0px 850px 500px -500px #fff;
-  height: 160vh;
+  height: 170vh;
 }
 
 
@@ -1610,4 +1614,127 @@ box-shadow: inset 0px 850px 500px -500px #fff;
 		line-height: 25px;
 	}
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page Start  */
+.about_page {
+	background-image: url("https://i.ibb.co/jRndhTF/Copy-of-Copy-of-Untitled-5.png");
+	height: 60vh;
+	width: 100%;
+	background-size: cover;
+	font-family: 'Clicker Script', cursive;
+	position: absolute;
+}
+.about_page__section2 {
+	background-image: url("https://i.ibb.co/p3gr6Ch/welcome-sticker.jpg");
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	justify-content: space-between;
+	display: flex;
+}
+.waves svg{
+	margin-top: -15%;
+}
+.page_heading {
+	font-size: 70px;
+	padding-top: 6%;
+	color: #fff;
+	text-align: center;
+}
+.about_page__welcome_red {
+	font-size: 60px;
+	color: #F7882B;
+	font-family: 'Alex Brush', cursive;
+}
+.about_page_maintext {
+	margin-left: 15%;
+}
+.about_page__restaurant_name {
+	font-size: 40px;
+	margin-top: -10%;
+font-family: 'Lato', sans-serif;
+}
+.about_page__about_paragraph {
+	max-width: 80%;
+	font-size: 15px;
+font-family: 'Lato', sans-serif;
+}
+.points {
+	font-family: 'Lato', sans-serif;
+
+}
+.points li::before {
+  content: "\2022";
+  color: #F7882B;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+hr {
+	border-top: 0.1px solid #c2c2c2;
+	width: 60%;
+	margin-left: 0px;
+}
+.about_page_section3 {
+	background-color: #F6F6F6;
+	width: 100%;
+	padding-top: 1%;
+}
+.about_page__section3__welcome_red {
+	font-size: 50px;
+	color: #F7882B;
+	font-family: 'Alex Brush', cursive;
+	text-align: center;
+	margin-left: -7%;
+
+}
+
+.about_page__section3__restaurant_name {
+	font-size: 40px;
+	margin-top: -5%;
+	text-align: center;
+	padding-bottom: 2%;
+	font-family: 'Lato', sans-serif;
+}
+.about_page_section3_main {
+	display: flex;
+	justify-content: space-between;
+}
+.about_page_section3_main_specialties {
+	display: flex;
+	font-family: 'Lato', sans-serif;
+	margin-left: 30%;
+	width: 100%;
+
+
+}
+.about_page_section3_main_specialties h4{
+	margin-left: 5%;
+	margin-top: 8%;
+
+}
+
+.about_page_section3_main_specialties p{
+	margin-top: -8%;
+	margin-left: 5%;
+	width: 150%;
+
+}
+.about_page_section3_food {
+	margin-left: -50%;
+	margin-top: -30%;
 }

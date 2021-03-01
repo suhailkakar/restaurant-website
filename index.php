@@ -3,28 +3,34 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Feedc Restaurant</title>
+	<title>Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
+	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
 	<section class="landing">
+
+
+		<!--  Header Start Using navigation -->
 		<header class="header">
 			<a href="" class="logo"></a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 			<ul class="menu">
 				<li><a href="#work">Home</a></li>
-				<li><a href="#about">About Us</a></li>
+				<li><a href="about.php">About Us</a></li>
 				<li><a href="#careers">Menu</a></li>
-				<li><a href="#contact">Order Now</a></li>
 				<li><a href="#contact">Blog</a></li>
 				<li><a href="#">Location</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
 				<li> <a href="#"><i data-eva="shopping-cart-outline"></i></a> </li>
 				<li> <a href="#"><i data-eva="search-outline"></i></a> </li>
 			</ul>
 		</header>
+		<!--  Header End  Using navigation -->
+
 		<div class="landing__flex">
 			<div class="">
 				<h1 class="landing__maintext">
@@ -55,11 +61,11 @@
 			<div class="image"> <img src="Images/bg.png" alt="" /> </div>
 		</div>
 	</section>
-	<section class="about">
+	<section   class="about">
 		<div class="firstimage"> <img src="Images/section1.png" class="section1" alt=""> </div>
 		<div class="secondtext">
 			<p class="about_orange">About Us</p>
-			<h1 class="about_head">Discover Our <br> Restaurant Story</h1> <img src="https://o.remove.bg/downloads/58a72779-1865-40ba-a344-1cc5cfffa74a/Untitled_design__1_-removebg-preview-removebg-preview.png" class="section2" alt="">
+			<h1 class="about_head">Discover Our <br> Restaurant Story</h1> <img src="Images/section3.png" class="section2" alt="">
 			<p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		</div>
 	</section>
@@ -72,7 +78,7 @@
 		<ul class="cd-items cd-container">
 			<!---------------->
 			<li class="cd-item breakfast" style="display: list-item;"><img src="Images/menu/2.png" alt="">
-				<div class="cd-trigger">100 $</div>
+				<div class="cd-trigger">100 €</div>
 				<div class="cd-triggers"></div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
@@ -98,7 +104,7 @@
 			</li>
 			<!--------------->
 			<li class="cd-item fruits" style="display: list-item;"><img src="Images/menu/3.png" alt="site web societe amtcars creation et hebergement web maroc heberdomaine">
-				<div class="cd-trigger">80 $</div>
+				<div class="cd-trigger">80 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -123,7 +129,7 @@
 			</li>
 			<!----------------->
 			<li class="cd-item fruits" style="display: list-item;"><img src="Images/menu/4.png" alt="site web societe allinone.travel maroc creation et hebergement web maroc heberdomaine">
-				<div class="cd-trigger">89 $</div>
+				<div class="cd-trigger">89 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -148,7 +154,7 @@
 			</li>
 			<!------------------>
 			<li class="cd-item breakfast" style="display: list-item;"><img src="Images/menu/1.png" alt="site web societe atelier de manue maroc creation et hebergement web maroc heberdomaine">
-				<div class="cd-trigger">28 $</div>
+				<div class="cd-trigger">28 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -173,7 +179,7 @@
 			</li>
 			<!------------------>
 			<li class="cd-item fruits" style="display: list-item;"><img src="Images/menu/5.png" alt="site web societe groupe obc maroc creation et hebergement web maroc">
-				<div class="cd-trigger">48 $</div>
+				<div class="cd-trigger">48 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -198,7 +204,7 @@
 			</li>
 			<!----------------->
 			<li class="cd-item breakfast" style="display: list-item;"><img src="Images/menu/6.png" alt="site web magasin e-commerce creation et hebergement web maroc heberdomain">
-				<div class="cd-trigger">87 $</div>
+				<div class="cd-trigger">87 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -223,7 +229,7 @@
 			</li>
 			<!------------------>
 			<li class="cd-item fruits" style="display: list-item;"><img src="Images/menu/9.png" alt="site web location de voitures simauto france creation et hebergement web maroc heberdomain">
-				<div class="cd-trigger">588 $</div>
+				<div class="cd-trigger">588 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -248,7 +254,7 @@
 			</li>
 			<!------------------->
 			<li class="cd-item breakfast" style="display: list-item;"><img src="Images/menu/8.png" alt="site web organisation club amicale des cadres hoteliers agadir creation et hebergement web maroc heberdomaine">
-				<div class="cd-trigger">983 $</div>
+				<div class="cd-trigger">983 €</div>
 				<div class="quick-view-content">
 					<div class="quick-view-content-wrapper">
 						<div class="cd-slider-wrapper">
@@ -292,38 +298,38 @@
                   <div id="testim-content" class="cont">
 
                       <div class="active">
-                          <div class="img"><img src="https://i.redd.it/6onq25y0sh311.jpg" alt=""></div>
-                          <h2>Mr John Smith</h2>
+                          <div class="img"><img src="Images/mobin.jpg" alt=""></div>
+                          <h2>Mr Mobin</h2>
                           <h4>⭐⭐⭐⭐⭐</h4>
                         <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
                       </div>
 
                       <div>
-                        <div class="img"><img src="https://i.redd.it/6onq25y0sh311.jpg" alt=""></div>
-                          <h2>Mr. Lorem Ipsum</h2>
+												<div class="img"><img src="Images/mobin.jpg" alt=""></div>
+												<h2>Mr Mobin</h2>
                           <h4>⭐⭐⭐⭐⭐</h4>
                           <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
                       </div>
 
                       <div>
-                        <div class="img"><img src="https://i.redd.it/6onq25y0sh311.jpg" alt=""></div>
-                          <h2>Lorem Ipsum</h2>
-                          <h4>⭐⭐⭐⭐⭐</h4>
-
-                          <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
-                      </div>
-
-                      <div>
-                        <div class="img"><img src="https://i.redd.it/6onq25y0sh311.jpg" alt=""></div>
-                          <h2>Lorem De Ipsum</h2>
+												<div class="img"><img src="Images/mobin.jpg" alt=""></div>
+												<h2>Mr Mobin</h2>
                           <h4>⭐⭐⭐⭐⭐</h4>
 
                           <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
                       </div>
 
                       <div>
-                        <div class="img"><img src="https://i.redd.it/6onq25y0sh311.jpg" alt=""></div>
-                          <h2>Ms. Lorem R. Ipsum</h2>
+												<div class="img"><img src="Images/mobin.jpg" alt=""></div>
+												<h2>Mr Mobin</h2>
+                          <h4>⭐⭐⭐⭐⭐</h4>
+
+                          <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
+                      </div>
+
+                      <div>
+												<div class="img"><img src="Images/mobin.jpg" alt=""></div>
+												<h2>Mr Mobin</h2>
                           <h4>⭐⭐⭐⭐⭐</h4>
 
                           <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</i></p>
@@ -348,7 +354,7 @@ border: 1px solid #F7882B; margin-left: 48%; " class="fa fa-phone"></i>
 
 
 
-<h1 class="contact_number">+ 1 (202) 891 1234</h1>
+<h1 class="contact_number">+43 123 456 7890</h1>
 <div style="display: flex; justify-content: space-between; margin: 0 20% 0 20%">
 
 <div class="">
