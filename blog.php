@@ -21,7 +21,7 @@
         <li><a style="color: #fff !important" href="about.php">About Us</a></li>
         <li><a style="color: #fff !important" href="menu.php">Menu</a></li>
         <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
-        <li><a style="color: #fff !important" href="#">Location</a></li>
+				<li><a style="color: #fff !important" href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
         <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
         <li> <a style="fill: #fff !important" href="#"><i data-eva="shopping-cart-outline"></i></a> </li>
         <li> <a style="fill: #fff !important" href="#"><i data-eva="search-outline"></i></a> </li>
