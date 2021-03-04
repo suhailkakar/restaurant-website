@@ -41,11 +41,10 @@ if(isset($_POST['username'])) {
 			<ul class="menu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
-				<li><a href="menu.php">Menu</a></li>
-				<li><a href="blog.php">Blog</a></li>
-				<li><a href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
-				<li><a href="contact.php">Contact Us</a></li>
-				<li> <a href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
+        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
+				<li><a href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
+				<li> <a href="menu2.php"><i data-eva="shopping-cart-outline"></i></a> </li>
 				<li> <a href="#"><i data-eva="search-outline"></i></a> </li>
 				<?php if($_SESSION['username']): ?>
 							<li><a href="blog.php">Hi <?=$_SESSION['username']?> </a></li>
@@ -312,8 +311,8 @@ if(isset($_POST['username'])) {
         <h1 class="menu_mainheading">Customers Say</h1>
               <div class="wrap">
 
-                  <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                  <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                  <span id="right-arrow" class="arrow right "></span>
+                  <span id="left-arrow" class="arrow left  "></span>
                   <ul id="testim-dots" class="dots">
                       <li class="dot active"></li><!--
                       --><li class="dot"></li><!--

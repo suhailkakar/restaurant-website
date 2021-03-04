@@ -44,6 +44,8 @@ if(isset($_POST['username'])) {
 			<input type="password" placeholder="Password" />
 			<button class="button" onclick="submitfunction()">Sign Up</button>
 		</form>
+
+
 	</div>
 	<div class="form-container sign-in-container">
     <form name="login" action="" method="post">

@@ -6,6 +6,7 @@
 	<title>Contact Us | Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
 	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
@@ -18,20 +19,18 @@
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a style="color: #fff !important" href="index.php">Home</a></li>
-        <li><a style="color: #fff !important" href="about.php">About Us</a></li>
-        <li><a style="color: #fff !important" href="#careers">Menu</a></li>
-        <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
-        <li><a style="color: #fff !important" href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
-        <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
-				<li> <a style="fill: #fff !important" href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
-        <li> <a style="fill: #fff !important" href="#"><i data-eva="search-outline"></i></a> </li>
+				<li><a style="color: #fff " href="index.php">Home</a></li>
+        	<li><a style="color: #fff " href="about.php">About Us</a></li>
+        <li><a style="color: #fff " href="gallery.php">Gallery</a></li>
+        <li><a style="color: #fff " href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
+        <li><a style="color: #fff " href="contact.php">Contact Us</a></li>
+        <li> <a style="fill: #fff " href="menu2.php"><i data-eva="shopping-cart-outline"></i></a> </li>
+        <li> <a style="fill: #fff " href="#"><i data-eva="search-outline"></i></a> </li>
       </ul>
 		</header>
 		<!--  Header End  Using navigation -->
-
     <section>
-      <h1 class="page_heading">Menu </h1>
+      <h1 class="page_heading">Gallery </h1>
       <div class="waves">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#fff" fill-opacity="1" d="M0,224L80,213.3C160,203,320,181,480,186.7C640,192,800,224,960,229.3C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
@@ -40,145 +39,9 @@
   </section>
 
 
-
   <section>
-    <div class="mainmenu">
-      <div class="mainmenu_flex1">
-        <h1>Starters</h1>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Salted Fried Chicken</h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">20.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Chicken / Olive Oil / Salt</p>
-          <br>
-        </div>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Crab With Curry </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">28.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Potatoes / Rice</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Salmon Steak </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . .  . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">92.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Salmon / Veggies / Oil</p>
-        </div>
-        <h1>Sea Food</h1>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Spicy Crab Ramen</h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . .  . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">27.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Veggie / Soup</p>
-          <br>
-        </div>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Crab With Lemon </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . .  . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">36.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Lemon / Garlic</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Salmon Steak </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . .  . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">28.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Salmon / Veggies / Oil</p>
-          <br>
-          <br>
-        </div>
-      </div>
-      <div class="mainmenu_flex1">
-        <h1>Main Course</h1>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu"> Italian Salsa Verde</h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">83.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Oil / Tomatoes / Veggies</p>
-          <br>
-        </div>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Imported Oysters Grill </h3>
-            <h3 class="mainmenu_dots" > &nbsp; .  . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">73.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Oysters / Veggie / Ginger</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Crab With Lemon </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . .  . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">36.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Lemon / Garlic</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Salted Fried Chicken</h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">20.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Chicken / Olive Oil / Salt</p>
-          <br>
-        </div>
-
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Spicy Crab Ramen</h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . .  . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">27.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Veggie / Soup</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Salmon Steak </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . .  . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">28.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Salmon / Veggies / Oil</p>
-          <br>
-        </div>
-        <div class="">
-          <div class="menu_heading">
-            <h3 class="mainmenu_menu">Crab With Curry </h3>
-            <h3 class="mainmenu_dots" > &nbsp; . . . . . . . . . . . . . . . &nbsp;  </h4>
-              <h3 class="mainmenu_price">28.00 €</h4>
-          </div>
-          <p class="menu_heading_inde">Crab / Potatoes / Rice</p>
-          <br>
-        </div>
-      </div>
-      </div>
-  </section>
-
-  <section>
-    <h1 class="about_page__section3__welcome_red">Food </h1>
-    <h1 class="about_page__section3__restaurant_name"> &nbsp; &nbsp;Few Recipes </h1>
+    <h1 class="about_page__section3__welcome_red">Gallery </h1>
+    <h1 class="about_page__section3__restaurant_name"> &nbsp; &nbsp;Few Images </h1>
     <div class="container">
      <a href="https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/10/pumpkin-pad-thai-recipe.jpg?fit=1200%2C879&ssl=1" data-lightbox="homePortfolio">
        <img src="https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/10/pumpkin-pad-thai-recipe.jpg?fit=1200%2C879&ssl=1"/>

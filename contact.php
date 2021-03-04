@@ -17,15 +17,14 @@
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a style="color: #fff !important" href="index.php">Home</a></li>
-        <li><a style="color: #fff !important" href="about.php">About Us</a></li>
-        <li><a style="color: #fff !important" href="menu.php">Menu</a></li>
-        <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
-				<li><a style="color: #fff !important" href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
-        <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
-				<li> <a style="fill: #fff !important" href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
-        <li> <a style="fill: #fff !important" href="#"><i data-eva="search-outline"></i></a> </li>
-      </ul>
+				<li><a style="color: #fff " href="index.php">Home</a></li>
+					<li><a style="color: #fff " href="about.php">About Us</a></li>
+				<li><a style="color: #fff " href="gallery.php">Gallery</a></li>
+				<li><a style="color: #fff " href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
+				<li><a style="color: #fff " href="contact.php">Contact Us</a></li>
+				<li> <a style="fill: #fff " href="menu2.php"><i data-eva="shopping-cart-outline"></i></a> </li>
+				<li> <a style="fill: #fff " href="#"><i data-eva="search-outline"></i></a> </li>
+			</ul>
 		</header>
 		<!--  Header End  Using navigation -->
 

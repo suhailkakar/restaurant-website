@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<title>About Us | Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
@@ -13,18 +14,17 @@
 	<section class="about_page">
 		<!--  Header Start Using navigation -->
 		<header class="header">
-			<a href="" class="logo"></a>
+			<a href="" class="logo">Restaurant</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-				<li><a style="color: #fff !important" href="index.php">Home</a></li>
-        	<li><a style="color: #fff !important" href="about.php">About Us</a></li>
-        <li><a style="color: #fff !important" href="menu.php">Menu</a></li>
-        <li><a style="color: #fff !important" href="blog.php">Blog</a></li>
-        <li><a style="color: #fff !important" href="https://www.google.com/maps/place/Austria/@47.6746075,11.102598,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072">Location</a></li>
-        <li><a style="color: #fff !important" href="contact.php">Contact Us</a></li>
-        <li> <a style="fill: #fff !important" href="shop.php"><i data-eva="shopping-cart-outline"></i></a> </li>
-        <li> <a style="fill: #fff !important" href="#"><i data-eva="search-outline"></i></a> </li>
+	      <ul class="menu">
+				<li><a style="color: #fff " href="index.php">Home</a></li>
+        	<li><a style="color: #fff " href="about.php">About Us</a></li>
+        <li><a style="color: #fff " href="gallery.php">Gallery</a></li>
+        <li><a style="color: #fff " href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
+        <li><a style="color: #fff " href="contact.php">Contact Us</a></li>
+        <li> <a style="fill: #fff " href="menu2.php"><i data-eva="shopping-cart-outline"></i></a> </li>
+        <li> <a style="fill: #fff " href="#"><i data-eva="search-outline"></i></a> </li>
       </ul>
 		</header>
 		<!--  Header End  Using navigation -->
@@ -66,7 +66,7 @@
 <section class="about_page_section3">
   <!-- https://i.ibb.co/PYP2Wt0/like.png     https://i.ibb.co/RN66qvB/food.png  -->
   <h1 class="about_page__section3__welcome_red">Our </h1>
-  <h1 class="about_page__section3__restaurant_name">Specialties </h1>
+  <h1 class="about_page__section3__restaurant_name" id="about_page__section3__restaurant_name">Specialties </h1>
   <div class="about_page_section3_main">
       <div class="specialties">
         <div class="about_page_section3_main_specialties">
@@ -96,7 +96,7 @@
         <img  class="about_page_section3_food" src="https://i.ibb.co/RN66qvB/food.png" alt="">
 
       </div>
-      <div class="specialties">
+      <div id="specialties_right" class="specialties">
 
         <div style="margin-left: -70%;" class="about_page_section3_main_specialties">
 
@@ -111,7 +111,7 @@
         <br>
         <br>
         <br>
-        <div style="margin-left: -70%;" class="about_page_section3_main_specialties">
+        <div style="margin-left: -70%;"  class="about_page_section3_main_specialties">
 
           <div>
               <h4>Indian Cuisine</h4>
@@ -168,7 +168,24 @@ border: 1px solid #F7882B; margin-left: 48%; " class="fa fa-phone"></i>
 </section>
 </div>
 
+<style media="screen">
 
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+	background: #fff;
+}
+.logo {
+	color: #fff !important;
+}
+@media only screen and (max-width: 600px)  {
+	a {
+		color: #000 !important;
+	}
+	.specialties_right {
+		display: none;
+	}
+}
+</style>
 </body>
 <script src="https://unpkg.com/eva-icons"></script>
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
