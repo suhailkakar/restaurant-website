@@ -42,15 +42,13 @@ if(isset($_POST['username'])) {
 			<ul class="menu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
-        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="login.php">Login</a></li>
         <li><a href="contact.php">Contact Us</a></li>
 				<li><a href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
         <li><a  href="menu2.php">Menu</a></li>
-				<li> <a href="#"><i data-eva="search-outline"></i></a> </li>
 				<?php if($_SESSION['username']): ?>
 							<li><a href="blog.php">Hi <?=$_SESSION['username']?> </a></li>
               <li><a href="?logout=1">Logout</a></li>
-
         <?php endif; ?>
 
 			</ul>

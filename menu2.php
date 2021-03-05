@@ -21,6 +21,7 @@
                <li><a href="about.php">About Us</a></li>
                <li><a href="gallery.php">Gallery</a></li>
                <li><a href="contact.php">Contact Us</a></li>
+               <li><a href="login.php">Login</a></li>
                <li><a href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
             </ul>
          </div>
@@ -574,13 +575,14 @@
            }
          }).then((result) => {
            /* Read more about handling dismissals below */
+           window.location.href = "payment.html";
+
            if (result.dismiss === Swal.DismissReason.timer) {
              console.log('I was closed by the timer')
            }
          })
+}
 
-
-        }
       </script>
 
    </body>
