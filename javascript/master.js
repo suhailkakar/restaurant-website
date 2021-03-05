@@ -28,12 +28,42 @@ function videoPlay(wrapper) {
   wrapper.addClass('videoWrapperActive');
   iframe.attr('src',src);
 }
+//Filtering The Product
+var $mediaElements = $(".cd-item");
+$(".filter_link").click(function(e) {
+  e.preventDefault();
+  var filterVal = $(this).data("filter");
+  if (filterVal === "all") {
+    $mediaElements.slideDown("slow");
+  } else {
+    $mediaElements
+      .hide("slow")
+      .filter("." + filterVal)
+      .slideDown("slow");
+  }
+});
+
+// Adding Custom Poster to the Youtube Video
+$(document).on('click','.js-videoPoster',function(e) {
+  e.preventDefault();
+  var poster = $(this);
+  var wrapper = poster.closest('.js-videoWrapper');
+  videoPlay(wrapper);
+});
+
+// Playing Youtube Video
+function videoPlay(wrapper) {
+  var iframe = wrapper.find('.js-videoIframe');
+  var src = iframe.data('src');
+  wrapper.addClass('videoWrapperActive');
+  iframe.attr('src',src);
+}
 
 
 
 // Testimonials Sliders
-
-// Variables
+// vars
+'use strict'
 var	testim = document.getElementById("testim"),
 		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
     testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
@@ -51,7 +81,7 @@ var	testim = document.getElementById("testim"),
 
 window.onload = function() {
 
-    // Custom Slider
+    // Testim Script
     function playSlide(slide) {
         for (var k = 0; k < testimDots.length; k++) {
             testimContent[k].classList.remove("active");
@@ -97,7 +127,7 @@ window.onload = function() {
 
     playSlide(currentSlide);
 
-    // Changing  the slide using keyboard arrows
+    // keyboard shortcuts
     document.addEventListener("keyup", function(e) {
         switch (e.keyCode) {
             case 37:
@@ -141,42 +171,3 @@ window.onload = function() {
 
 		})
 }
-
-
-	/* ----  Image Gallery Carousel   ---- */
-
-	var carousel = $('#carousel ul');
-	var carouselSlideWidth = 335;
-	var carouselWidth = 0;
-	var isAnimating = false;
-
-	// building the width of the casousel
-	$('#carousel li').each(function(){
-		carouselWidth += carouselSlideWidth;
-	});
-	$(carousel).css('width', carouselWidth);
-
-	// Load Next Image
-	$('div.carouselNext').on('click', function(){
-		var currentLeft = Math.abs(parseInt($(carousel).css("left")));
-		var newLeft = currentLeft + carouselSlideWidth;
-		if(newLeft == carouselWidth || isAnimating === true){return;}
-		$('#carousel ul').css({'left': "-" + newLeft + "px",
-							   "transition": "300ms ease-out"
-							 });
-		isAnimating = true;
-		setTimeout(function(){isAnimating = false;}, 300);
-	});
-
-	// Load Previous Image
-	$('div.carouselPrev').on('click', function(){
-		var currentLeft = Math.abs(parseInt($(carousel).css("left")));
-		var newLeft = currentLeft - carouselSlideWidth;
-		if(newLeft < 0  || isAnimating === true){return;}
-		$('#carousel ul').css({'left': "-" + newLeft + "px",
-							   "transition": "300ms ease-out"
-							 });
-	    isAnimating = true;
-		setTimeout(function(){isAnimating = false;}, 300);
-	});
-});

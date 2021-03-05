@@ -274,7 +274,7 @@
       </div>
       </div>
       </div>
-      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
       <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
       <script type="text/javascript">
@@ -290,7 +290,6 @@
              $('.info-large').show();
            }, 200);
            setTimeout(function(){
-
              $('.view_gallery').trigger("click");
            }, 400);
 

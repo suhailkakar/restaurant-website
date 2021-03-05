@@ -42,7 +42,6 @@ if(isset($_POST['username'])) {
 			<ul class="menu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="about.php">About Us</a></li>
-        <li><a href="login.php">Login</a></li>
         <li><a href="contact.php">Contact Us</a></li>
 				<li><a href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
         <li><a  href="menu2.php">Menu</a></li>
@@ -53,8 +52,6 @@ if(isset($_POST['username'])) {
 
 			</ul>
 		</header>
-		<!--  Header End  Using navigation -->
-
 		<div class="landing__flex">
 			<div class="">
 				<h1 class="landing__maintext">
@@ -62,6 +59,7 @@ if(isset($_POST['username'])) {
                         To Our Cuisine <br />
                         Restaurant
                     </h1>
+
 				<div class="mainsearch">
 					<div class="search">
 						<li class="search-icon-input"> <a href="#"><i data-eva="search-outline"></i></a> </li>
@@ -81,7 +79,25 @@ if(isset($_POST['username'])) {
 						<p>178 K</p>
 					</div>
 				</div>
+        <div style="margin-left: 20%; margin-top: 1%;" id="asdsa">
+          <a href="login.php" class="btn">
+          <svg width="186" height="62">
+            <defs>
+                <linearGradient id="grad1">
+                    <stop offset="0%" stop-color="#F89035"/>
+                    <stop offset="100%" stop-color="#FBA93F" />
+                </linearGradient>
+            </defs>
+             <rect x="2" y="2" rx="25" fill="none" stroke="url(#grad1)" width="176" height="50"></rect>
+          </svg>
+          <div style="margin-top: -1%;" >
+          <!--<span>Voir mes réalisations</span>-->
+            <span>Login</span>
+            </div>
+        </a>
+        </div>
 			</div>
+
 			<div class="image"> <img src="Images/bg.png" alt="" /> </div>
 		</div>
 	</section>
@@ -416,6 +432,7 @@ border: 1px solid #F7882B; margin-left: 48%; " class="fa fa-phone"></i>
 <script src="https://unpkg.com/eva-icons"></script>
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" charset="utf-8"></script>
 <script src="javascript/master.js"></script>
 <script>
 eva.replace();
