@@ -117,7 +117,7 @@ li {
 }
 
 .header .menu-btn:checked ~ .menu {
-	max-height: 240px;
+	max-height: 440px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -2120,8 +2120,11 @@ span {
 	margin-left: -10%;
 }
 .contact {
-	margin-top: -120%;
+	margin-top: -0% !important;
 	height: 120vh;
+}
+.testim {
+	margin-bottom: -120% !important;
 }
 .fa {
 	display: none !important;
@@ -2189,21 +2192,25 @@ font-family: 'Lato', sans-serif;
 #about_page__section3__restaurant_name {
 	margin-top: -20%;
 }
+.about_page_section3_main_specialties img {
+	display: flex;
+	flex-direction: row !important;
+	margin-left: 110% !important;
+}
 .about_page_section3_main_specialties {
 	display: block;
-	margin-left: 10%;
 }
 
 .about_page_section3_main_specialties h4{
 	margin-left: 35%;
-	margin-top: 8%;
+	margin-left: -20%;
 	font-size: 15px;
 
 }
 
 .about_page_section3_main_specialties p{
 	margin-top: -8%;
-	margin-left: 35%;
-	width: 130%;
-
+	margin-left: -20%;
+	width: 125%;
+}
 }

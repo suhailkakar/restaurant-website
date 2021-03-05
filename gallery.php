@@ -6,6 +6,7 @@
 	<title>Contact Us | Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
 	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -15,7 +16,7 @@
 	<section class="about_page">
 		<!--  Header Start Using navigation -->
 		<header class="header">
-			<a href="" class="logo"></a>
+			<a href="" class="logo">Restaurant</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
@@ -23,8 +24,8 @@
         	<li><a style="color: #fff " href="about.php">About Us</a></li>
         <li><a style="color: #fff " href="gallery.php">Gallery</a></li>
         <li><a style="color: #fff " href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
-        <li><a style="color: #fff " href="contact.php">Contact Us</a></li>
-        <li> <a style="fill: #fff " href="menu2.php"><i data-eva="shopping-cart-outline"></i></a> </li>
+				<li><a style="color: #fff " href="contact.php">Contact Us</a></li>
+				<li><a style="color: #fff " href="contact2.php">Menu</a></li>
         <li> <a style="fill: #fff " href="#"><i data-eva="search-outline"></i></a> </li>
       </ul>
 		</header>
@@ -180,7 +181,24 @@ border: 1px solid #F7882B; margin-left: 48%; " class="fa fa-phone"></i>
 </section>
 </div>
 
+<style media="screen">
 
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+	background: #fff;
+}
+.logo {
+	color: #fff !important;
+}
+@media only screen and (max-width: 600px)  {
+	a {
+		color: #000 !important;
+	}
+	.specialties_right {
+		display: none;
+	}
+}
+</style>
 </body>
 <script src="https://unpkg.com/eva-icons"></script>
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>

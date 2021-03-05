@@ -5,15 +5,17 @@
 	<meta charset="utf-8" />
 	<title>Contact Us | Restaurant Website</title>
 	<link rel="stylesheet" href="css/master.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="icon" href="Images/logo.jpg" type="image/png" sizes="16x16">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
 	<section class="about_page">
+
 		<!--  Header Start Using navigation -->
 		<header class="header">
-			<a href="" class="logo"></a>
+			<a href="" class="logo">Restaurant</a>
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
@@ -83,7 +85,24 @@ border: 1px solid #F7882B; margin-left: 48%; " class="fa fa-phone"></i>
 </section>
 </div>
 
+<style media="screen">
 
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+	background: #fff;
+}
+.logo {
+	color: #fff !important;
+}
+@media only screen and (max-width: 600px)  {
+	a {
+		color: #000 !important;
+	}
+	.specialties_right {
+		display: none;
+	}
+}
+</style>
 </body>
 <script src="https://unpkg.com/eva-icons"></script>
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
