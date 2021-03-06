@@ -22,7 +22,7 @@
         'success'
         ).then((result) => {
           /* Read more about handling dismissals below */
-          window.location.href = "index.html";
+          window.location.href = "index.php";
 })
         </script>
   </body>
