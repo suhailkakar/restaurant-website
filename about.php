@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -18,16 +19,16 @@
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	      <ul class="menu">
-				<li><a style="color: #fff " href="index.php">Home</a></li>
-        	<li><a style="color: #fff " href="about.php">About Us</a></li>
-        <li><a style="color: #fff " href="login.php">Login</a></li>
+				<li><a style="color: #fff " href="index.html">Home</a></li>
+        	<li><a style="color: #fff " href="about.html">About Us</a></li>
+        <li><a style="color: #fff " href="login.html">Login</a></li>
         <li><a style="color: #fff " href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
-        <li><a style="color: #fff " href="contact.php">Contact Us</a></li>
-				<li><a style="color: #fff " href="menu2.php">Menu</a></li>
+        <li><a style="color: #fff " href="contact.html">Contact Us</a></li>
+				<li><a style="color: #fff " href="menu2.html">Menu</a></li>
       </ul>
 		</header>
 		<!--  Header End  Using navigation -->
-    <section>
+    <section >
       <h1 class="page_heading">About Us </h1>
       <div class="waves">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -58,7 +59,7 @@
       </div>
       </div>
       <div class="">
-        <img src="https://i.ibb.co/yPzpxWC/chef-img1.jpg" alt="">
+        <img class="chef" src="https://i.ibb.co/yPzpxWC/chef-img1.jpg" alt="">
       </div>
 </div>
   </section>
@@ -70,11 +71,11 @@
       <div class="specialties">
         <div class="about_page_section3_main_specialties">
           <div class="">
-              <img src="https://i.ibb.co/dmwT2pM/output-onlinepngtools-3.png" alt="">
+              <img class="section-3-img"src="https://i.ibb.co/dmwT2pM/output-onlinepngtools-3.png" alt="">
           </div>
           <div class="">
-              <h4>Indian Cuisine</h4>
-              <p>Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
+              <h4 class="indian-cuisine">Indian Cuisine</h4>
+              <p class="indian-cuisine-p">Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
           </div>
         </div>
         <br>
@@ -83,11 +84,11 @@
 
         <div class="about_page_section3_main_specialties">
           <div class="">
-              <img src="https://i.ibb.co/QKqXwhG/output-onlinepngtools-1.png" alt="">
+              <img class="section-3-img"src="https://i.ibb.co/QKqXwhG/output-onlinepngtools-1.png" alt="">
           </div>
           <div class="">
-              <h4>Indian Cuisine</h4>
-              <p>Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
+              <h4 class="indian-cuisine">Indian Cuisine</h4>
+              <p class="indian-cuisine-p">Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
           </div>
         </div>
       </div>
@@ -101,11 +102,11 @@
         <div style="margin-left: -70%;" class="about_page_section3_main_specialties">
 
           <div>
-              <h4>Indian Cuisine</h4>
-              <p>Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
+              <h4 class="indian-cuisine">Indian Cuisine</h4>
+              <p class="indian-cuisine-p">Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
           </div>
           <div >
-              <img  style="margin-left: 110%;"src="https://i.ibb.co/F3xb3mP/output-onlinepngtools-2.png " alt="">
+              <img class="section-3-img" style="margin-left: 110%;"src="https://i.ibb.co/F3xb3mP/output-onlinepngtools-2.png " alt="">
           </div>
         </div>
         <br>
@@ -114,11 +115,11 @@
         <div style="margin-left: -70%;"  class="about_page_section3_main_specialties">
 
           <div>
-              <h4>Indian Cuisine</h4>
-              <p>Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
+              <h4 class="indian-cuisine">Indian Cuisine</h4>
+              <p class="indian-cuisine-p">Lorem Ipsum is simply dummy text of the prinng and typesting industry.</p>
           </div>
           <div >
-              <img  style="margin-left: 110%;"src="https://i.ibb.co/vHmjNQf/output-onlinepngtools-4.png " alt="">
+              <img class="section-3-img" style="margin-left: 110%;"src="https://i.ibb.co/vHmjNQf/output-onlinepngtools-4.png " alt="">
           </div>
         </div>
   </div>
