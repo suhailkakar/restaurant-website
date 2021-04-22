@@ -32,7 +32,7 @@ li {
 /* Client Area Button */
 
 
-}
+
 .asdsa{
 margin-left: 20% !important;
 }
@@ -60,7 +60,6 @@ margin-left: 20% !important;
 }
 
 .btn svg rect {
-    //stroke: #EC0033;
     stroke-width: 4;
     stroke-dasharray: 353, 0;
     stroke-dashoffset: 0;
@@ -1021,7 +1020,7 @@ i.fa.fa-tag::before {
  background-image:url(https://habitualmente.com/wp-content/uploads/2015/08/cambiar-habitos-de-alimentacion-destacada.jpg);
   background-size: 100%;
 	background-repeat: no-repeat !important;
-  border: none
+  border: none;
    text-indent: -999em;
   overflow: hidden;
   opacity: 1;
@@ -2098,11 +2097,113 @@ span {
 
 
 
+/* Big Desktop */
+@media only screen and (min-width: 1900px)  {
+	.landing__maintext {
+		font-size: 80px;
+		width: 100%;
+		margin-left: 20%;
+	}
+
+	.image img {
+		margin-left: 28%;
+		width: 120%;
+	}
+	.search {
+		padding: 3%;
+	}
+	.social {
+	margin-left: 23%;
+	}
+	.firstimage img{
+		width: 127%;
+	}
+	.about_orange{
+		font-size: 35px;
+		margin-left: 2%;
+		margin-top: -4%;
+	}
+	.about_head{
+		font-size: 50px;
+		margin-left: 2%;
+	}
+	.section2 {
+		width: 80%;
+		margin-top: -37.8%;
+		margin-left: 20%;
+
+	}
+	.about__text{
+		margin-top: -37%;
+		width: 60%;
+		margin-left: 2%;
+		font-size: 24px;
+	}
+
+	.page_heading{
+		font-size: 90px;
+	}
+	.about_page__welcome_red{
+		font-size: 90px;
+		padding-bottom: 2%;
+	}
+	.about_page__restaurant_name{
+		font-size: 60px;
+	}
+	.about_page__about_paragraph{
+		font-size: 23px;
+	}
+	.points{
+		padding-top: 2%;
+	}
+	.point{
+		font-size: 21px;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	.chef{
+		width: 550px;
+		margin-left: -4%;
+	}
+	.about_page_maintext{
+		margin-top: -5%;
+	}
+	.about_page__section3__welcome_red{
+		font-size: 75px;
+	}
+	.about_page__section3__restaurant_name{
+		font-size: 65px;
+	}
+	
+	.section-3-img{
+		width: 150px;
+	}
+	.indian-cuisine{
+		font-size: 23px;
+	}
+	.indian-cuisine-p{
+		font-size: 19px;
+	}
+	.image img{
+		width: 700px;
+		margin-left: -45%;
+	}
+	.contact_call{
+		font-size: 30px;
+	}
+	.contact_number{
+		font-size: 27px;
+	}
+	
 
 
+
+
+}
 
 
 /* Responsive */
+
 
 
 
