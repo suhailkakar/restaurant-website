@@ -1,4 +1,5 @@
 
+
 <?php
 session_start();
 error_reporting(E_ALL & ~E_NOTICE);
@@ -40,13 +41,13 @@ if(isset($_POST['username'])) {
 			<input class="menu-btn" type="checkbox" id="menu-btn" />
 			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 			<ul class="menu">
-				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About Us</a></li>
-        <li><a href="contact.php">Contact Us</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
 				<li><a href="https://www.google.com/maps/place/Thaliastra%C3%9Fe+125,+1160+Wien,+Austria/data=!4m2!3m1!1s0x476d080eefd80691:0x8cb77ef32297826a?sa=X&ved=2ahUKEwj8z7i3x5bvAhUK_3MBHdM5ASAQ8gEwAHoECAIQAQ">Location</a></li>
-        <li><a  href="menu2.php">Menu</a></li>
+        <li><a  href="menu2.html">Menu</a></li>
 				<?php if($_SESSION['username']): ?>
-							<li><a href="blog.php">Hi <?=$_SESSION['username']?> </a></li>
+							<li><a href="blog.html">Hi <?=$_SESSION['username']?> </a></li>
               <li><a href="?logout=1">Logout</a></li>
         <?php endif; ?>
 
@@ -80,7 +81,7 @@ if(isset($_POST['username'])) {
 					</div>
 				</div>
         <div style="margin-left: 20%; margin-top: 1%;" id="asdsa">
-          <a href="login.php" class="btn">
+          <a href="login.html" class="btn">
           <svg width="186" height="62">
             <defs>
                 <linearGradient id="grad1">
